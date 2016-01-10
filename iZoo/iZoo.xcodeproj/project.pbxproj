@@ -1,0 +1,398 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		074EF1611BFCB6AA006933FB /* IUCN.m in Sources */ = {isa = PBXBuildFile; fileRef = 074EF1601BFCB6AA006933FB /* IUCN.m */; };
+		074EF1651BFCC45A006933FB /* AnimalTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 074EF1641BFCC45A006933FB /* AnimalTableViewCell.m */; };
+		074EF16A1BFCD472006933FB /* UIImageView+UIImageView_Download.m in Sources */ = {isa = PBXBuildFile; fileRef = 074EF1691BFCD472006933FB /* UIImageView+UIImageView_Download.m */; };
+		076BA6BF1BFC764100278DEC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 076BA6BE1BFC764100278DEC /* main.m */; };
+		076BA6C21BFC764100278DEC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 076BA6C11BFC764100278DEC /* AppDelegate.m */; };
+		076BA6C51BFC764100278DEC /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 076BA6C41BFC764100278DEC /* MasterViewController.m */; };
+		076BA6C81BFC764100278DEC /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 076BA6C71BFC764100278DEC /* DetailViewController.m */; };
+		076BA6CB1BFC764100278DEC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 076BA6C91BFC764100278DEC /* Main.storyboard */; };
+		076BA6CD1BFC764100278DEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 076BA6CC1BFC764100278DEC /* Assets.xcassets */; };
+		076BA6D01BFC764100278DEC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 076BA6CE1BFC764100278DEC /* LaunchScreen.storyboard */; };
+		076BA6DC1BFC779900278DEC /* Animal.m in Sources */ = {isa = PBXBuildFile; fileRef = 076BA6DB1BFC779900278DEC /* Animal.m */; };
+		076BA6DF1BFC86C400278DEC /* ZooWebService.m in Sources */ = {isa = PBXBuildFile; fileRef = 076BA6DE1BFC86C400278DEC /* ZooWebService.m */; };
+		07BED26A1C4316E8004ACDC5 /* NSString+URLValidations.m in Sources */ = {isa = PBXBuildFile; fileRef = 07BED2691C4316E8004ACDC5 /* NSString+URLValidations.m */; };
+		07F77DC71BFDE74E00FF284E /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07F77DC61BFDE74E00FF284E /* ImageIO.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		074EF15F1BFCB6AA006933FB /* IUCN.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IUCN.h; sourceTree = "<group>"; };
+		074EF1601BFCB6AA006933FB /* IUCN.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IUCN.m; sourceTree = "<group>"; };
+		074EF1631BFCC45A006933FB /* AnimalTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimalTableViewCell.h; sourceTree = "<group>"; };
+		074EF1641BFCC45A006933FB /* AnimalTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimalTableViewCell.m; sourceTree = "<group>"; };
+		074EF1681BFCD472006933FB /* UIImageView+UIImageView_Download.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+UIImageView_Download.h"; sourceTree = "<group>"; };
+		074EF1691BFCD472006933FB /* UIImageView+UIImageView_Download.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+UIImageView_Download.m"; sourceTree = "<group>"; };
+		076BA6BA1BFC764100278DEC /* iZoo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iZoo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		076BA6BE1BFC764100278DEC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		076BA6C01BFC764100278DEC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		076BA6C11BFC764100278DEC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		076BA6C31BFC764100278DEC /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MasterViewController.h; path = ../MasterViewController.h; sourceTree = "<group>"; };
+		076BA6C41BFC764100278DEC /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = MasterViewController.m; path = ../MasterViewController.m; sourceTree = "<group>"; };
+		076BA6C61BFC764100278DEC /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = DetailViewController.h; path = ../DetailViewController.h; sourceTree = "<group>"; };
+		076BA6C71BFC764100278DEC /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = DetailViewController.m; path = ../DetailViewController.m; sourceTree = "<group>"; };
+		076BA6CA1BFC764100278DEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		076BA6CC1BFC764100278DEC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		076BA6CF1BFC764100278DEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		076BA6D11BFC764100278DEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		076BA6DA1BFC779900278DEC /* Animal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Animal.h; sourceTree = "<group>"; };
+		076BA6DB1BFC779900278DEC /* Animal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Animal.m; sourceTree = "<group>"; };
+		076BA6DD1BFC86C400278DEC /* ZooWebService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZooWebService.h; sourceTree = "<group>"; };
+		076BA6DE1BFC86C400278DEC /* ZooWebService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZooWebService.m; sourceTree = "<group>"; };
+		076BA6E01BFC9E1000278DEC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		07BED2681C4316E8004ACDC5 /* NSString+URLValidations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+URLValidations.h"; sourceTree = "<group>"; };
+		07BED2691C4316E8004ACDC5 /* NSString+URLValidations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+URLValidations.m"; sourceTree = "<group>"; };
+		07F77DC61BFDE74E00FF284E /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		076BA6B71BFC764100278DEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07F77DC71BFDE74E00FF284E /* ImageIO.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		074EF1621BFCC40A006933FB /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				074EF1631BFCC45A006933FB /* AnimalTableViewCell.h */,
+				074EF1641BFCC45A006933FB /* AnimalTableViewCell.m */,
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		074EF1661BFCD2A8006933FB /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				074EF1681BFCD472006933FB /* UIImageView+UIImageView_Download.h */,
+				074EF1691BFCD472006933FB /* UIImageView+UIImageView_Download.m */,
+				07BED2681C4316E8004ACDC5 /* NSString+URLValidations.h */,
+				07BED2691C4316E8004ACDC5 /* NSString+URLValidations.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		076BA6B11BFC764100278DEC = {
+			isa = PBXGroup;
+			children = (
+				07F77DC61BFDE74E00FF284E /* ImageIO.framework */,
+				076BA6E01BFC9E1000278DEC /* UIKit.framework */,
+				076BA6BC1BFC764100278DEC /* iZoo */,
+				076BA6BB1BFC764100278DEC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		076BA6BB1BFC764100278DEC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				076BA6BA1BFC764100278DEC /* iZoo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		076BA6BC1BFC764100278DEC /* iZoo */ = {
+			isa = PBXGroup;
+			children = (
+				074EF1661BFCD2A8006933FB /* Categories */,
+				074EF1621BFCC40A006933FB /* CustomViews */,
+				076BA6D81BFC775300278DEC /* ViewControllers */,
+				076BA6D91BFC775300278DEC /* WebService */,
+				076BA6D71BFC774900278DEC /* Model */,
+				076BA6C91BFC764100278DEC /* Main.storyboard */,
+				076BA6C01BFC764100278DEC /* AppDelegate.h */,
+				076BA6C11BFC764100278DEC /* AppDelegate.m */,
+				076BA6CC1BFC764100278DEC /* Assets.xcassets */,
+				076BA6CE1BFC764100278DEC /* LaunchScreen.storyboard */,
+				076BA6D11BFC764100278DEC /* Info.plist */,
+				076BA6BD1BFC764100278DEC /* Supporting Files */,
+			);
+			path = iZoo;
+			sourceTree = "<group>";
+		};
+		076BA6BD1BFC764100278DEC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				076BA6BE1BFC764100278DEC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		076BA6D71BFC774900278DEC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				076BA6DA1BFC779900278DEC /* Animal.h */,
+				076BA6DB1BFC779900278DEC /* Animal.m */,
+				074EF15F1BFCB6AA006933FB /* IUCN.h */,
+				074EF1601BFCB6AA006933FB /* IUCN.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		076BA6D81BFC775300278DEC /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				076BA6C31BFC764100278DEC /* MasterViewController.h */,
+				076BA6C41BFC764100278DEC /* MasterViewController.m */,
+				076BA6C61BFC764100278DEC /* DetailViewController.h */,
+				076BA6C71BFC764100278DEC /* DetailViewController.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		076BA6D91BFC775300278DEC /* WebService */ = {
+			isa = PBXGroup;
+			children = (
+				076BA6DD1BFC86C400278DEC /* ZooWebService.h */,
+				076BA6DE1BFC86C400278DEC /* ZooWebService.m */,
+			);
+			path = WebService;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		076BA6B91BFC764100278DEC /* iZoo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 076BA6D41BFC764100278DEC /* Build configuration list for PBXNativeTarget "iZoo" */;
+			buildPhases = (
+				076BA6B61BFC764100278DEC /* Sources */,
+				076BA6B71BFC764100278DEC /* Frameworks */,
+				076BA6B81BFC764100278DEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iZoo;
+			productName = iZoo;
+			productReference = 076BA6BA1BFC764100278DEC /* iZoo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		076BA6B21BFC764100278DEC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = dlbi;
+				TargetAttributes = {
+					076BA6B91BFC764100278DEC = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+				};
+			};
+			buildConfigurationList = 076BA6B51BFC764100278DEC /* Build configuration list for PBXProject "iZoo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 076BA6B11BFC764100278DEC;
+			productRefGroup = 076BA6BB1BFC764100278DEC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				076BA6B91BFC764100278DEC /* iZoo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		076BA6B81BFC764100278DEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				076BA6D01BFC764100278DEC /* LaunchScreen.storyboard in Resources */,
+				076BA6CD1BFC764100278DEC /* Assets.xcassets in Resources */,
+				076BA6CB1BFC764100278DEC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		076BA6B61BFC764100278DEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				076BA6C21BFC764100278DEC /* AppDelegate.m in Sources */,
+				076BA6C51BFC764100278DEC /* MasterViewController.m in Sources */,
+				074EF1611BFCB6AA006933FB /* IUCN.m in Sources */,
+				076BA6DC1BFC779900278DEC /* Animal.m in Sources */,
+				07BED26A1C4316E8004ACDC5 /* NSString+URLValidations.m in Sources */,
+				076BA6BF1BFC764100278DEC /* main.m in Sources */,
+				074EF1651BFCC45A006933FB /* AnimalTableViewCell.m in Sources */,
+				074EF16A1BFCD472006933FB /* UIImageView+UIImageView_Download.m in Sources */,
+				076BA6C81BFC764100278DEC /* DetailViewController.m in Sources */,
+				076BA6DF1BFC86C400278DEC /* ZooWebService.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		076BA6C91BFC764100278DEC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				076BA6CA1BFC764100278DEC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		076BA6CE1BFC764100278DEC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				076BA6CF1BFC764100278DEC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		076BA6D21BFC764100278DEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		076BA6D31BFC764100278DEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		076BA6D51BFC764100278DEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = iZoo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bcf.iZoo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		076BA6D61BFC764100278DEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = iZoo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bcf.iZoo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		076BA6B51BFC764100278DEC /* Build configuration list for PBXProject "iZoo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				076BA6D21BFC764100278DEC /* Debug */,
+				076BA6D31BFC764100278DEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		076BA6D41BFC764100278DEC /* Build configuration list for PBXNativeTarget "iZoo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				076BA6D51BFC764100278DEC /* Debug */,
+				076BA6D61BFC764100278DEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 076BA6B21BFC764100278DEC /* Project object */;
+}
